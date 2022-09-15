@@ -1,5 +1,5 @@
 # Melbourne Housing Data: Create Investment Strategy with Cluster Analysis 
-*Unsupervised learning methods: PCA, Cluster Analysis, t-SNE
+*Unsupervised learning methods: PCA, Cluster Analysis, t-SNE* 
 
 The 2016 Melbourne Housing Market dataset contains real estate data on over 34K units including townhomes and houses and property attributes such as number of bedrooms, baths, the size of the building area, and several geographic attributes such as neighborhood and Council Area. 
  
