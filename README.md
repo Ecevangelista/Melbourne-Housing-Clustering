@@ -9,9 +9,9 @@ This assessment uses unsupervised machine learning techniques to draw conclusion
 Develop a strategy to identify potentially undervalued properties within the Melbourne Housing dataset 
  
 ### Data Source and Exploratory Data Analysis 
-2016 Melbourne Housing Market - [Kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market) 
+2016 Melbourne Housing Market - [Kaggle](https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market)  
 The dataset in this project was adapted from the Kaggle dataset 
-- Over 50,000 properties were reduced to 8887 properties when reviewing complete cases 
+- Over 34,000 properties were reduced to 8,887 properties when reviewing complete cases. Removal of outliers reduced the final dataset to over 8,300 properties. 
 - Prices are listed in AUD and distance/sizes are listed in meters 
 - Correlation analysis revealed a high correlation between BuildingArea (size of the building in meters) and Room (0.72) and Bathroom (0.65): This lead me to drop the Room and Bathroom variables from the dataset 
 - New feature created: Price per Meter (ppm) provides a standardized way to compare prices amongst properties with similar BuildingArea 
